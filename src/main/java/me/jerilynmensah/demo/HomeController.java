@@ -14,7 +14,7 @@ public class HomeController {
 
     }
 
-    @RequestMapping("/songform")
+    @RequestMapping("/confirmsong")
     public String loadFromPage(@ModelAttribute Song song){
         return "confirmsong";
     }
