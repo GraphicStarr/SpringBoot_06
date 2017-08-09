@@ -7,10 +7,10 @@
 <body>
 <form action="#" th:action="@{/>songform}" th:object="${song} method="post">
     Name: <input type="text" th:field="${name}" />
-    Artist: <input type="text" th:field="${name}" />
-    Album: <input type="text" th:field="${name}" />
-    Rating: <input type="text" th:field="${name}" />
-    Year: <input type="text" th:field="${name}" />
+    Artist: <input type="text" th:field="${artist}" />
+    Album: <input type="text" th:field="${album}" />
+    Rating: <input type="text" th:field="${rating}" />
+    Year: <input type="text" th:field="${year}" />
     <input type="submit" value="Submit" />
 
 </form>
